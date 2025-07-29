@@ -7,6 +7,7 @@ utils::globalVariables(c(
   "STNID", # <get_isd_history>
   "USAF", # <get_isd_history>
   "WBAN", # <get_isd_history>
+  "codelist", # <get_isd_history>
   "COUNTRY_NAME", # <get_isd_history>
   "..x", # <get_isd_history>
   "STNID", # <get_updates>
@@ -18,6 +19,7 @@ utils::globalVariables(c(
   "distance_km", # <nearest_stations>
   "STNID", # <.process_csv>
   "STP", # <.process_csv>
+  "STP_ATTRIBUTES", # <.process_csv>
   "YEARMODA", # <.process_csv>
   "DATE", # <.process_csv>
   "YEAR", # <.process_csv>

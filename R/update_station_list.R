@@ -1,4 +1,3 @@
-
 #' Download Latest isd-history.csv File and Update an Internal Database
 #'
 #' This function downloads the latest station list (isd-history.csv) from the
@@ -22,7 +21,7 @@
 #'
 #' @examples
 #' \dontrun{
-#'  update_station_list()
+#' update_station_list()
 #' }
 #'
 #' @seealso [get_isd_history()]
@@ -37,12 +36,12 @@ update_station_list <- function() {
   )
 
   answer <-
-    readLines(con = getOption("GSODR_connection"), n = 1)
+    readLines(con = getOption("GSODR_connection"), n = 1L)
 
   answer <- toupper(answer)
 
   if (answer != "Y" & answer != "YES") {
-    stop("Station list was not updated.")
+    stop("Station list was not updated.", call. = FALSE)
   }
 
   isd_history <- get_isd_history()
