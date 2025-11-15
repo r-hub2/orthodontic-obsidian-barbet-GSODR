@@ -43,7 +43,7 @@ A \code{\link[data.table:data.table]{data.table::data.table()}} object of \acron
 \description{
 Automates downloading, cleaning, reformatting of data from the Global Surface
 Summary of the Day (\acronym{GSOD}) data provided by the
-[US National Centers for Environmental Information (NCEI)(https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00516),
+\href{https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00516}{US National Centers for Environmental Information (NCEI)},
 Three additional useful elements: saturation vapour pressure (es), actual
 vapour pressure (ea) and relative humidity (RH) are calculated and returned
 in the final data frame using the improved August-Roche-Magnus approximation
@@ -90,8 +90,8 @@ available to data providers.}
 
 Alduchov, O.A. and Eskridge, R.E., 1996. Improved Magnus form approximation
 of saturation vapor pressure. Journal of Applied Meteorology and Climatology,
-35(4), pp.601-609. DOI:
-<10.1175\%2F1520-0450\%281996\%29035\%3C0601\%3AIMFAOS\%3E2.0.CO\%3B2>.
+35(4), pp.601-609.
+\doi{doi:10.1175/1520-0450(1996)035<0601:IMFAOS>2.0.CO;2}.
 }
 
 \examples{
